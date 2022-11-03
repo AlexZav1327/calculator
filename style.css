@@ -1,0 +1,98 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Oxygen", sans-serif;
+  font-size: 22px;
+  color: rgb(187, 203, 230);
+}
+
+.container {
+  margin: 10px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calculator {
+  margin: 0 0 250px 0;
+  padding: 10px;
+  background-color: #111;
+  border-radius: 15px;
+  position: relative;
+}
+
+.display {
+  height: 120px;
+  width: 290px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #333;
+  border-radius: 15px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.result {
+  padding: 5px;
+  font-size: 36px;
+}
+
+.controls {
+  padding: 120px 0 0 0;
+}
+
+.row__top {
+  height: 70px;
+}
+
+.row {
+  display: flex;
+}
+
+.row:not(:last-child) {
+  margin: 0 0 10px 0;
+}
+
+.button__top {
+  flex: 0 1 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+  cursor: default;
+}
+
+.button:not(:last-child) {
+  margin: 0 10px 0 0;
+}
+
+.operator {
+  background-color: rgb(51, 63, 150);
+}
+
+.equal {
+  background-color: rgb(47, 47, 245);
+}
+
+.clear {
+  background-color: rgb(54, 87, 54);
+}
