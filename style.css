@@ -30,8 +30,9 @@ body {
 }
 
 .display {
-  height: 120px;
+  height: 130px;
   width: 290px;
+  padding: 5px;
   top: 0;
   left: 0;
   position: absolute;
@@ -43,16 +44,17 @@ body {
 }
 
 .result {
-  padding: 5px;
+  padding: 2px;
   font-size: 36px;
+  color: #fff;
 }
 
 .controls {
-  padding: 120px 0 0 0;
+  padding: 130px 0 0 0;
 }
 
 .row__top {
-  height: 70px;
+  height: 30px;
 }
 
 .row {
@@ -68,6 +70,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: default;
 }
 
 .button {
