@@ -77,3 +77,9 @@ const countResult = () => {
   }
 };
 equal.addEventListener("click", countResult);
+
+const blinkIntervalID = setInterval(blink, 500);
+function blink() {
+  const cursor = document.querySelector(".cursor");
+  cursor.classList.toggle("hide");
+}
